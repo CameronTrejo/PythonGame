@@ -1,21 +1,16 @@
-# Author: Cameron Trejo
-# Feb 10, 2021
+import random
 
-# This is a game to demo functions in python
+possible_choices = ['Rock', 'Paper', 'Scissors']
 
-# Rock Paper Scissors
-
-# Rock beats Scissors
-# Scissors beat Paper
-# Paper beats Rock
-
-# Psuedo Code --> 
-
-# User Selection -- get info from the user
-# Computer Selection -- find way for computer to select options
-# Evaluate the results
-# Declarea winner
+# User selection -- get info from user
 
 user_selection = input("What is your selection? (Rock, Paper, Scissors): ")
 #TODO Validate user selection 
 print('You chose', user_selection)
+
+# Computer Selection -- find way for computer to select options
+computer_selection = random.choices(possible_choices)
+print('Computer chose', str(computer_selection))
+
+# Evaluate the results
+# Declar a winner
