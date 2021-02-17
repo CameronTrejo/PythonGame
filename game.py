@@ -51,11 +51,3 @@ while True:
 
 # This is outside of the loop
 print("Thanks for playing!")
-
-
-
-
-
-
-
-
