@@ -37,8 +37,6 @@ elif user_selection == "Paper":
     else:
         print("User wins")
 
-
-
 #----------SCISSORS----------
 elif user_selection == "Scissors":
     if computer_selection == "Rock":
@@ -46,9 +44,4 @@ elif user_selection == "Scissors":
     else:
         print("User wins")
 
-
-
 # Declare a winner
-
-
-
